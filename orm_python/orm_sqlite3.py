@@ -1,6 +1,6 @@
 import sqlite3 # Importa o sqlite3
 
-class OremPython:
+class OrmPython:
     def __init__(self, db_name):
         self.con = sqlite3.connect(db_name)
         self.cur = self.con.cursor()
