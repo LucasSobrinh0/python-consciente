@@ -1,7 +1,7 @@
 from orm_sqlite3 import OremPython
 
 # Inicializa o ORM com o banco de dados
-orm = OremPython('dbsql.db')
+orm = OrmPython('dbsql.db')
 
 # 1. Criar a tabela 'filme'
 orm.create_table('filme', [
